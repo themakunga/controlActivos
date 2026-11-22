@@ -1,14 +1,16 @@
 # Control de Activo Fijos
-****
+
+---
+
 Aplicación y gestion de activos fijos, utilizable para arriendo/prestamo o entregas:
 
 ### Core CODE
 
-codigo basado en *Meteor.js* y mongoDB como administrador de base de datos, en futuras versiones se cambiará a *MYSQL* utlizando REST.
-se utiliza codigos de barra o QR para las inserciones mas rapidas. se tiene que previamente poblar la base en la seccion ***assets***
+codigo basado en _Meteor.js_ y mongoDB como administrador de base de datos, en futuras versiones se cambiará a _MYSQL_ utlizando REST.
+se utiliza codigos de barra o QR para las inserciones mas rapidas. se tiene que previamente poblar la base en la seccion **_assets_**
 
-+ No usar en produccion hasta la version __1.X.XX__
-+ aun no se puede hacer metricas ni historial
+- No usar en produccion hasta la version **1.X.XX**
+- aun no se puede hacer metricas ni historial
 
 #### packages utilizados
 
@@ -49,4 +51,17 @@ hitchcott:qr-scanner
 
 
 ```
+
 se prevee que la CSS va a ser personalizada
+
+## Repository reference
+
+| Path                           | Purpose               |
+| ------------------------------ | --------------------- |
+| [`client/`](client/)           | Client implementation |
+| [`collections/`](collections/) | Meteor collections    |
+| [`lib/`](lib/)                 | Shared implementation |
+| [`.meteor/`](.meteor/)         | Project configuration |
+
+The default branch is `master`. Use the tracked manifests and scripts above
+when preparing changes; keep local credentials and generated files out of commits.
