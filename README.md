@@ -1,5 +1,8 @@
 # Control de Activo Fijos
 
+![Meteor](https://img.shields.io/badge/Meteor-DE4F4F?style=flat-square&logo=meteor&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
 ---
 
 Aplicación y gestion de activos fijos, utilizable para arriendo/prestamo o entregas:
